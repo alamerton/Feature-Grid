@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" viewBox="-26 -26 100 100" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(0.060936, 0, 0, 0.051497, -1358.979961, -783.924611)" style="transform-origin: 1360.09px 773.471px;">
+<svg version="1.1"
+  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;"
+  viewBox="-26 -26 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.060936, 0, 0, 0.051497, -1358.979961, -783.924611)"
+    style="transform-origin: 1360.09px 773.471px;">
     <clipPath id="_clip1">
-      <rect x="1193.14" y="747.889" width="1121.73" height="984.621" clip-rule="nonzero"/>
+      <rect x="1193.14" y="747.889" width="1121.73" height="984.621" clip-rule="nonzero" />
     </clipPath>
-    <g clip-path="url(#_clip1)" style="transform-origin: 1278.37px 992.284px;" transform="matrix(0.874147, 0.218691, -0.210542, 1.178355, 110.877913, 20.045492)">
-      <path d="M2076.96,1124.2C2220.17,1326.13 2110.61,1557.43 2057.62,1647.65C2041.89,1673.2 2015.69,1690.5 1986.02,1694.92C1882.18,1712.82 1623.67,1732.87 1484.75,1530.93C1347.98,1340.45 1353.71,1005.33 1365.88,845.639C1367.56,804.147 1402.55,771.868 1444.04,773.543C1452.09,773.868 1460.03,775.484 1467.57,778.326C1621.52,822.726 1942.33,933.718 2076.96,1124.2Z" style="fill: none; fill-rule: nonzero; stroke: black; stroke-width: 17.7883px;"/>
-      <path d="M1594.31,1057.6C1758.34,1250.89 1902.29,1460.35 2023.96,1682.75" style="fill: none; fill-rule: nonzero; stroke: black; stroke-width: 17.7883px;"/>
+    <g clip-path="url(#_clip1)" style="transform-origin: 1278.37px 992.284px;"
+      transform="matrix(0.874147, 0.218691, -0.210542, 1.178355, 110.877913, 20.045492)">
+      <path
+        d="M2076.96,1124.2C2220.17,1326.13 2110.61,1557.43 2057.62,1647.65C2041.89,1673.2 2015.69,1690.5 1986.02,1694.92C1882.18,1712.82 1623.67,1732.87 1484.75,1530.93C1347.98,1340.45 1353.71,1005.33 1365.88,845.639C1367.56,804.147 1402.55,771.868 1444.04,773.543C1452.09,773.868 1460.03,775.484 1467.57,778.326C1621.52,822.726 1942.33,933.718 2076.96,1124.2Z"
+        style="fill: none; fill-rule: nonzero; stroke: black; stroke-width: 17.7883px;" />
+      <path d="M1594.31,1057.6C1758.34,1250.89 1902.29,1460.35 2023.96,1682.75"
+        style="fill: none; fill-rule: nonzero; stroke: black; stroke-width: 17.7883px;" />
     </g>
   </g>
 </svg>

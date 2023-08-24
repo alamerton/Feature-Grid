@@ -8,12 +8,9 @@
   justify-content: space-around;
 }
 .grid-item {
-  height: 10rem;
-  min-width: 10rem;
+  height: 20rem;
+  min-width: 20rem;
   background-color: white;
   margin: 2rem 0 2rem 0;
+  text-align: center;
 }
-/* svg {
-  width: 100%;
-  height: auto;
-} */
