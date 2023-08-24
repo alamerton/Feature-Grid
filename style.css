@@ -14,3 +14,7 @@
   text-align: center;
   border-radius: 36px;
 }
+.plus-icon {
+  float: right;
+  margin-right: 1rem;
+}
