@@ -1,0 +1,19 @@
+.grid-container {
+  height: 50rem;
+  background-color: #f2f4f3;
+}
+.grid-row {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.grid-item {
+  height: 10rem;
+  min-width: 10rem;
+  background-color: white;
+  margin: 2rem 0 2rem 0;
+}
+/* svg {
+  width: 100%;
+  height: auto;
+} */
