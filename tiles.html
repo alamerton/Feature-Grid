@@ -50,13 +50,45 @@
               stroke-linecap="round"
             />
           </svg>
+          <!-- <svg
+            style="display: none"
+            id="timer-cross"
+            class="cross-icon"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.3225 11.4644L32.5357 32.6776"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M11.6055 32.8188L32.8187 11.6056"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg> -->
           <script>
             const tile = document.getElementById("timer-tile");
-            const button = document.getElementById("timer-button");
+            const changeButton = document.getElementById("timer-button");
+            const resetButton = document.getElementById("timer-cross");
             const description =
-              "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>";
-            button.addEventListener("click", () => {
+              "<p id='feature-description'&quot;'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+            const button =
+              "<svg id='exit-button' width='44' height='44' viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'> <path d='M11.3225 11.4644L32.5357 32.6776' stroke='black' stroke-width='3' stroke-linecap='round' /> <path d='M11.6055 32.8188L32.8187 11.6056' stroke='black' stroke-width='3' stroke-linecap='round' /> </svg>";
+            const originalContent = tile.innerHTML;
+            changeButton.addEventListener("click", () => {
               tile.innerHTML = description;
+              tile.innerHTML += button;
+              document.getElementById("exit-button").style.display = "block";
+            });
+            resetButton.addEventListener("click", () => {
+              tile.innerHTML = originalContent;
             });
           </script>
         </div>
