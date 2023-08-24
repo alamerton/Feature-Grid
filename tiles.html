@@ -10,7 +10,7 @@
   <body>
     <div class="grid-container">
       <div class="grid-row">
-        <div class="grid-item">
+        <div class="grid-item" id="timer-tile">
           <svg
             id="timer-icon"
             viewBox="-36 -26 120 80"
@@ -29,6 +29,7 @@
           </svg>
           <h3 class="tile-heading">15 second cycle</h3>
           <svg
+            id="timer-button"
             class="plus-icon"
             width="34"
             height="34"
@@ -49,6 +50,15 @@
               stroke-linecap="round"
             />
           </svg>
+          <script>
+            const tile = document.getElementById("timer-tile");
+            const button = document.getElementById("timer-button");
+            const description =
+              "<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>";
+            button.addEventListener("click", () => {
+              tile.innerHTML = description;
+            });
+          </script>
         </div>
         <div class="grid-item">
           <svg
@@ -70,6 +80,7 @@
           <h3 class="title-heading">Customer-safe design</h3>
           <svg
             class="plus-icon"
+            id="shield-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -110,6 +121,7 @@
           <h3 class="title-heading">Modular and maintainable</h3>
           <svg
             class="plus-icon"
+            id="spanner-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -164,6 +176,7 @@
           <h3 class="title-heading">Steam sanitisation</h3>
           <svg
             class="plus-icon"
+            id="diamond-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -239,6 +252,7 @@
           <h3 class="title-heading">High efficiency</h3>
           <svg
             class="plus-icon"
+            id="leaf-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -283,6 +297,7 @@
           <h3 class="title-heading">Intuitive user interface</h3>
           <svg
             class="plus-icon"
+            id="touch-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
