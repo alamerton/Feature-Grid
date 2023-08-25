@@ -19,7 +19,7 @@
   margin-right: 1rem;
   position: absolute;
   bottom: 1rem;
-  right: 1rem;
+  right: 0;
 }
 .exit-button {
   float: right;
@@ -27,7 +27,7 @@
   color: white;
   position: absolute;
   bottom: 0.75rem;
-  right: 0.75rem;
+  right: 0;
 }
 .feature-description {
   margin: 1rem;
