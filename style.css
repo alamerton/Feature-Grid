@@ -21,6 +21,7 @@
   bottom: 1rem;
   right: 0;
 }
+
 #timer-exit,
 #shield-exit,
 #spanner-exit,
@@ -29,16 +30,8 @@
 #touch-exit {
   rotate: 45deg;
   transition: 500ms;
+  fill: white;
 }
-/* .exit-button {
-  float: right;
-  margin-right: 1rem;
-  color: white;
-  position: absolute;
-  bottom: 0.75rem;
-  right: -0.3rem;
-} */
-
 .feature-description {
   margin: 1rem;
   color: white;
