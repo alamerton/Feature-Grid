@@ -31,6 +31,7 @@
 #shield-reverse,
 #spanner-reverse,
 #diamond-reverse,
-#leaf-reverse {
+#leaf-reverse,
+#touch-reverse {
   display: none;
 }

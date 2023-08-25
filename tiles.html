@@ -553,6 +553,54 @@
               stroke-linecap="round"
             />
           </svg>
+          <script>
+            const touchButton = document.getElementById("touch-button");
+            touchButton.addEventListener("click", () => {
+              const touchcard = document.getElementById("touch-card");
+              const touchReversecard = document.getElementById("touch-reverse");
+              touchReversecard.style.display = "block";
+              touchcard.style.display = "none";
+            });
+          </script>
+        </div>
+        <div class="grid-item" id="touch-reverse">
+          <p class="feature-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <svg
+            class="exit-button"
+            id="touch-exit"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.3225 11.4644L32.5357 32.6776"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M11.6055 32.8188L32.8187 11.6056"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+          <script>
+            const touchExitButton = document.getElementById("touch-exit");
+            touchExitButton.addEventListener("click", () => {
+              const touchcard = document.getElementById("touch-card");
+              const touchReversecard = document.getElementById("touch-reverse");
+              touchcard.style.display = "block";
+              touchReversecard.style.display = "none";
+            });
+          </script>
         </div>
       </div>
     </div>
