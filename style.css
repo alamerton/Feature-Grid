@@ -29,6 +29,7 @@
 
 #timer-reverse,
 #shield-reverse,
-#spanner-reverse {
+#spanner-reverse,
+#diamond-reverse {
   display: none;
 }

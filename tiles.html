@@ -335,6 +335,56 @@
               stroke-linecap="round"
             />
           </svg>
+          <script>
+            const diamondButton = document.getElementById("diamond-button");
+            diamondButton.addEventListener("click", () => {
+              const diamondTile = document.getElementById("diamond-tile");
+              const diamondReverseTile =
+                document.getElementById("diamond-reverse");
+              diamondReverseTile.style.display = "block";
+              diamondTile.style.display = "none";
+            });
+          </script>
+        </div>
+        <div class="grid-item" id="diamond-reverse">
+          <p class="feature-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <svg
+            class="exit-button"
+            id="diamond-exit"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.3225 11.4644L32.5357 32.6776"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M11.6055 32.8188L32.8187 11.6056"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+          <script>
+            const diamondExitButton = document.getElementById("diamond-exit");
+            diamondExitButton.addEventListener("click", () => {
+              const diamondTile = document.getElementById("diamond-tile");
+              const diamondReverseTile =
+                document.getElementById("diamond-reverse");
+              diamondTile.style.display = "block";
+              diamondReverseTile.style.display = "none";
+            });
+          </script>
         </div>
         <div class="grid-item" id="leaf-tile">
           <svg
