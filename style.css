@@ -21,14 +21,24 @@
   bottom: 1rem;
   right: 0;
 }
-.exit-button {
+#timer-exit,
+#shield-exit,
+#spanner-exit,
+#diamond-exit,
+#leaf-exit,
+#touch-exit {
+  rotate: 45deg;
+  transition: 500ms;
+}
+/* .exit-button {
   float: right;
   margin-right: 1rem;
   color: white;
   position: absolute;
   bottom: 0.75rem;
   right: -0.3rem;
-}
+} */
+
 .feature-description {
   margin: 1rem;
   color: white;
