@@ -13,7 +13,18 @@
   text-align: center;
   border-radius: 36px;
   position: relative;
+  animation: fade 250ms;
 }
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
 .plus-icon {
   margin-right: 1rem;
   position: absolute;
