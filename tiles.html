@@ -29,8 +29,8 @@
           </svg>
           <h3 class="tile-heading">15 second cycle</h3>
           <svg
-            id="timer-button"
             class="plus-icon"
+            id="timer-button"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -52,11 +52,11 @@
           </svg>
           <script>
             const timerButton = document.getElementById("timer-button");
-            button.addEventListener("click", () => {
-              const tile = document.getElementById("timer-tile");
-              const reverseTile = document.getElementById("timer-reverse");
-              reverseTile.style.display = "block";
-              tile.style.display = "none";
+            timerButton.addEventListener("click", () => {
+              const timerTile = document.getElementById("timer-tile");
+              const timerReverseTile = document.getElementById("timer-reverse");
+              timerReverseTile.style.display = "block";
+              timerTile.style.display = "none";
             });
           </script>
         </div>
@@ -68,8 +68,8 @@
             aliquip ex ea commodo consequat.
           </p>
           <svg
-            id="exit-button"
-            class="cross-icon"
+            class="exit-button"
+            id="timer-exit"
             width="44"
             height="44"
             viewBox="0 0 44 44"
@@ -90,12 +90,12 @@
             />
           </svg>
           <script>
-            const timerExitButton = document.getElementById("exit-button");
-            exitButton.addEventListener("click", () => {
-              const tile = document.getElementById("timer-tile");
-              const reverseTile = document.getElementById("timer-reverse");
-              tile.style.display = "block";
-              reverseTile.style.display = "none";
+            const timerExitButton = document.getElementById("timer-exit");
+            timerExitButton.addEventListener("click", () => {
+              const timerTile = document.getElementById("timer-tile");
+              const timerReverseTile = document.getElementById("timer-reverse");
+              timerTile.style.display = "block";
+              timerReverseTile.style.display = "none";
             });
           </script>
         </div>
@@ -118,8 +118,8 @@
           </svg>
           <h3 class="title-heading">Customer-safe design</h3>
           <svg
-            class="plus-icon"
             id="shield-button"
+            class="plus-icon"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -142,11 +142,11 @@
           <script>
             const shieldButton = document.getElementById("shield-button");
             shieldButton.addEventListener("click", () => {
-              const tile = document.getElementById("shield-tile");
+              const shieldTile = document.getElementById("shield-tile");
               const shieldReverseTile =
                 document.getElementById("shield-reverse");
               shieldReverseTile.style.display = "block";
-              tile.style.display = "none";
+              shieldTile.style.display = "none";
             });
           </script>
         </div>
@@ -158,8 +158,8 @@
             aliquip ex ea commodo consequat.
           </p>
           <svg
-            id="exit-button"
-            class="cross-icon"
+            id="shield-exit"
+            class="exit-button"
             width="44"
             height="44"
             viewBox="0 0 44 44"
@@ -180,13 +180,13 @@
             />
           </svg>
           <script>
-            const shieldExitButton = document.getElementById("exit-button");
+            const shieldExitButton = document.getElementById("shield-exit");
             shieldExitButton.addEventListener("click", () => {
-              const tile = document.getElementById("shield-tile");
+              const shieldTile = document.getElementById("shield-tile");
               const shieldReverseTile =
                 document.getElementById("shield-reverse");
-              tile.style.display = "block";
-              shieldReverse.style.display = "none";
+              shieldTile.style.display = "block";
+              shieldReverseTile.style.display = "none";
             });
           </script>
         </div>
@@ -209,8 +209,8 @@
           </svg>
           <h3 class="title-heading">Modular and maintainable</h3>
           <svg
-            class="plus-icon"
             id="spanner-button"
+            class="plus-icon"
             width="34"
             height="34"
             viewBox="0 0 34 34"
@@ -230,6 +230,56 @@
               stroke-linecap="round"
             />
           </svg>
+          <script>
+            const spannerButton = document.getElementById("spanner-button");
+            spannerButton.addEventListener("click", () => {
+              const spannerTile = document.getElementById("spanner-tile");
+              const spannerReverseTile =
+                document.getElementById("spanner-reverse");
+              spannerReverseTile.style.display = "block";
+              spannerTile.style.display = "none";
+            });
+          </script>
+        </div>
+        <div class="grid-item" id="spanner-reverse">
+          <p class="feature-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <svg
+            id="spanner-exit"
+            class="exit-button"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.3225 11.4644L32.5357 32.6776"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M11.6055 32.8188L32.8187 11.6056"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+          <script>
+            const spannerExitButton = document.getElementById("spanner-exit");
+            spannerExitButton.addEventListener("click", () => {
+              const spannerTile = document.getElementById("spanner-tile");
+              const spannerReverseTile =
+                document.getElementById("spanner-reverse");
+              spannerTile.style.display = "block";
+              spannerReverseTile.style.display = "none";
+            });
+          </script>
         </div>
       </div>
       <div class="grid-row">
