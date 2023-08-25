@@ -22,21 +22,39 @@
   right: 0;
 }
 
+#timer-button,
+#shield-button,
+#spanner-button,
+#diamond-button,
+#leaf-button,
+#touch-button {
+  animation: switchButton 500ms;
+  animation-direction: reverse;
+}
+
 #timer-exit,
 #shield-exit,
 #spanner-exit,
 #diamond-exit,
 #leaf-exit,
 #touch-exit {
-  rotate: 45deg;
-  transition: 500ms;
+  animation: switchButton 500ms;
   fill: white;
+  animation-fill-mode: forwards;
+}
+
+@keyframes switchButton {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
 }
 .feature-description {
   margin: 1rem;
   color: white;
 }
-
 #timer-reverse,
 #shield-reverse,
 #spanner-reverse,
