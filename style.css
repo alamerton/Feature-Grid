@@ -21,16 +21,13 @@
 .cross-icon {
   float: right;
   margin-right: 1rem;
-  /* display: none; */
 }
 .feature-description {
   margin: 1rem;
+  /* text-colour: white; */
 }
 
-#exit-button {
-  /* display: none; */
-}
-
-#timer-reverse {
+#timer-reverse,
+#shield-reverse {
   display: none;
 }

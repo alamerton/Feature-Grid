@@ -51,7 +51,7 @@
             />
           </svg>
           <script>
-            const button = document.getElementById("timer-button");
+            const timerButton = document.getElementById("timer-button");
             button.addEventListener("click", () => {
               const tile = document.getElementById("timer-tile");
               const reverseTile = document.getElementById("timer-reverse");
@@ -90,7 +90,7 @@
             />
           </svg>
           <script>
-            const exitButton = document.getElementById("exit-button");
+            const timerExitButton = document.getElementById("exit-button");
             exitButton.addEventListener("click", () => {
               const tile = document.getElementById("timer-tile");
               const reverseTile = document.getElementById("timer-reverse");
@@ -99,7 +99,7 @@
             });
           </script>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" id="shield-tile">
           <svg
             id="shield-icon"
             viewBox="-40 -26 120 80"
@@ -139,8 +139,58 @@
               stroke-linecap="round"
             />
           </svg>
+          <script>
+            const shieldButton = document.getElementById("shield-button");
+            shieldButton.addEventListener("click", () => {
+              const tile = document.getElementById("shield-tile");
+              const shieldReverseTile =
+                document.getElementById("shield-reverse");
+              shieldReverseTile.style.display = "block";
+              tile.style.display = "none";
+            });
+          </script>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" id="shield-reverse">
+          <p class="feature-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <svg
+            id="exit-button"
+            class="cross-icon"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.3225 11.4644L32.5357 32.6776"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+            <path
+              d="M11.6055 32.8188L32.8187 11.6056"
+              stroke="black"
+              stroke-width="3"
+              stroke-linecap="round"
+            />
+          </svg>
+          <script>
+            const shieldExitButton = document.getElementById("exit-button");
+            shieldExitButton.addEventListener("click", () => {
+              const tile = document.getElementById("shield-tile");
+              const shieldReverseTile =
+                document.getElementById("shield-reverse");
+              tile.style.display = "block";
+              shieldReverse.style.display = "none";
+            });
+          </script>
+        </div>
+        <div class="grid-item" id="spanner-tile">
           <svg
             id="spanner-icon"
             style="
@@ -183,7 +233,7 @@
         </div>
       </div>
       <div class="grid-row">
-        <div class="grid-item">
+        <div class="grid-item" id="diamond-tile">
           <svg
             id="diamond-icon"
             style="
@@ -236,8 +286,7 @@
             />
           </svg>
         </div>
-
-        <div class="grid-item">
+        <div class="grid-item" id="leaf-tile">
           <svg
             id="leaf-icon-with-transformations"
             style="
@@ -312,7 +361,7 @@
             />
           </svg>
         </div>
-        <div class="grid-item">
+        <div class="grid-item" id="touch-tile">
           <svg
             id="touch-icon"
             style="
