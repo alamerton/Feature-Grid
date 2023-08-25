@@ -13,18 +13,26 @@
   margin: 2rem 0 1rem 0;
   text-align: center;
   border-radius: 36px;
+  position: relative;
 }
 .plus-icon {
-  float: right;
+  /* float: right; */
   margin-right: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 .exit-button {
   float: right;
   margin-right: 1rem;
+  color: white;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
 }
 .feature-description {
   margin: 1rem;
-  /* text-colour: white; */
+  color: white;
 }
 
 #timer-reverse,
@@ -34,4 +42,5 @@
 #leaf-reverse,
 #touch-reverse {
   display: none;
+  background-color: black;
 }
