@@ -16,7 +16,6 @@
   position: relative;
 }
 .plus-icon {
-  /* float: right; */
   margin-right: 1rem;
   position: absolute;
   bottom: 1rem;
@@ -27,8 +26,8 @@
   margin-right: 1rem;
   color: white;
   position: absolute;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 0.75rem;
+  right: 0.75rem;
 }
 .feature-description {
   margin: 1rem;
