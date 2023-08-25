@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Tiles</title>
+    <title>cards</title>
   </head>
   <body>
     <div class="grid-container">
       <div class="grid-row">
-        <div class="grid-item" id="timer-tile">
+        <div class="grid-item" id="timer-card">
           <svg
             id="timer-icon"
             viewBox="-36 -26 120 80"
@@ -27,7 +27,7 @@
               style="fill: none; fill-rule: nonzero; stroke: black"
             />
           </svg>
-          <h3 class="tile-heading">15 second cycle</h3>
+          <h3 class="card-heading">15 second cycle</h3>
           <svg
             class="plus-icon"
             id="timer-button"
@@ -53,10 +53,10 @@
           <script>
             const timerButton = document.getElementById("timer-button");
             timerButton.addEventListener("click", () => {
-              const timerTile = document.getElementById("timer-tile");
-              const timerReverseTile = document.getElementById("timer-reverse");
-              timerReverseTile.style.display = "block";
-              timerTile.style.display = "none";
+              const timercard = document.getElementById("timer-card");
+              const timerReversecard = document.getElementById("timer-reverse");
+              timerReversecard.style.display = "block";
+              timercard.style.display = "none";
             });
           </script>
         </div>
@@ -92,14 +92,14 @@
           <script>
             const timerExitButton = document.getElementById("timer-exit");
             timerExitButton.addEventListener("click", () => {
-              const timerTile = document.getElementById("timer-tile");
-              const timerReverseTile = document.getElementById("timer-reverse");
-              timerTile.style.display = "block";
-              timerReverseTile.style.display = "none";
+              const timercard = document.getElementById("timer-card");
+              const timerReversecard = document.getElementById("timer-reverse");
+              timercard.style.display = "block";
+              timerReversecard.style.display = "none";
             });
           </script>
         </div>
-        <div class="grid-item" id="shield-tile">
+        <div class="grid-item" id="shield-card">
           <svg
             id="shield-icon"
             viewBox="-40 -26 120 80"
@@ -142,11 +142,11 @@
           <script>
             const shieldButton = document.getElementById("shield-button");
             shieldButton.addEventListener("click", () => {
-              const shieldTile = document.getElementById("shield-tile");
-              const shieldReverseTile =
+              const shieldcard = document.getElementById("shield-card");
+              const shieldReversecard =
                 document.getElementById("shield-reverse");
-              shieldReverseTile.style.display = "block";
-              shieldTile.style.display = "none";
+              shieldReversecard.style.display = "block";
+              shieldcard.style.display = "none";
             });
           </script>
         </div>
@@ -182,15 +182,15 @@
           <script>
             const shieldExitButton = document.getElementById("shield-exit");
             shieldExitButton.addEventListener("click", () => {
-              const shieldTile = document.getElementById("shield-tile");
-              const shieldReverseTile =
+              const shieldcard = document.getElementById("shield-card");
+              const shieldReversecard =
                 document.getElementById("shield-reverse");
-              shieldTile.style.display = "block";
-              shieldReverseTile.style.display = "none";
+              shieldcard.style.display = "block";
+              shieldReversecard.style.display = "none";
             });
           </script>
         </div>
-        <div class="grid-item" id="spanner-tile">
+        <div class="grid-item" id="spanner-card">
           <svg
             id="spanner-icon"
             style="
@@ -233,11 +233,11 @@
           <script>
             const spannerButton = document.getElementById("spanner-button");
             spannerButton.addEventListener("click", () => {
-              const spannerTile = document.getElementById("spanner-tile");
-              const spannerReverseTile =
+              const spannercard = document.getElementById("spanner-card");
+              const spannerReversecard =
                 document.getElementById("spanner-reverse");
-              spannerReverseTile.style.display = "block";
-              spannerTile.style.display = "none";
+              spannerReversecard.style.display = "block";
+              spannercard.style.display = "none";
             });
           </script>
         </div>
@@ -273,17 +273,17 @@
           <script>
             const spannerExitButton = document.getElementById("spanner-exit");
             spannerExitButton.addEventListener("click", () => {
-              const spannerTile = document.getElementById("spanner-tile");
-              const spannerReverseTile =
+              const spannercard = document.getElementById("spanner-card");
+              const spannerReversecard =
                 document.getElementById("spanner-reverse");
-              spannerTile.style.display = "block";
-              spannerReverseTile.style.display = "none";
+              spannercard.style.display = "block";
+              spannerReversecard.style.display = "none";
             });
           </script>
         </div>
       </div>
       <div class="grid-row">
-        <div class="grid-item" id="diamond-tile">
+        <div class="grid-item" id="diamond-card">
           <svg
             id="diamond-icon"
             style="
@@ -338,11 +338,11 @@
           <script>
             const diamondButton = document.getElementById("diamond-button");
             diamondButton.addEventListener("click", () => {
-              const diamondTile = document.getElementById("diamond-tile");
-              const diamondReverseTile =
+              const diamondcard = document.getElementById("diamond-card");
+              const diamondReversecard =
                 document.getElementById("diamond-reverse");
-              diamondReverseTile.style.display = "block";
-              diamondTile.style.display = "none";
+              diamondReversecard.style.display = "block";
+              diamondcard.style.display = "none";
             });
           </script>
         </div>
@@ -378,15 +378,15 @@
           <script>
             const diamondExitButton = document.getElementById("diamond-exit");
             diamondExitButton.addEventListener("click", () => {
-              const diamondTile = document.getElementById("diamond-tile");
-              const diamondReverseTile =
+              const diamondcard = document.getElementById("diamond-card");
+              const diamondReversecard =
                 document.getElementById("diamond-reverse");
-              diamondTile.style.display = "block";
-              diamondReverseTile.style.display = "none";
+              diamondcard.style.display = "block";
+              diamondReversecard.style.display = "none";
             });
           </script>
         </div>
-        <div class="grid-item" id="leaf-tile">
+        <div class="grid-item" id="leaf-card">
           <svg
             id="leaf-icon"
             style="
@@ -463,10 +463,10 @@
           <script>
             const leafButton = document.getElementById("leaf-button");
             leafButton.addEventListener("click", () => {
-              const leafTile = document.getElementById("leaf-tile");
-              const leafReverseTile = document.getElementById("leaf-reverse");
-              leafReverseTile.style.display = "block";
-              leafTile.style.display = "none";
+              const leafcard = document.getElementById("leaf-card");
+              const leafReversecard = document.getElementById("leaf-reverse");
+              leafReversecard.style.display = "block";
+              leafcard.style.display = "none";
             });
           </script>
         </div>
@@ -502,14 +502,14 @@
           <script>
             const leafExitButton = document.getElementById("leaf-exit");
             leafExitButton.addEventListener("click", () => {
-              const leafTile = document.getElementById("leaf-tile");
-              const leafReverseTile = document.getElementById("leaf-reverse");
-              leafTile.style.display = "block";
-              leafReverseTile.style.display = "none";
+              const leafcard = document.getElementById("leaf-card");
+              const leafReversecard = document.getElementById("leaf-reverse");
+              leafcard.style.display = "block";
+              leafReversecard.style.display = "none";
             });
           </script>
         </div>
-        <div class="grid-item" id="touch-tile">
+        <div class="grid-item" id="touch-card">
           <svg
             id="touch-icon"
             style="
