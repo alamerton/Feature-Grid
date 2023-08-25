@@ -38,7 +38,7 @@
 #diamond-button,
 #leaf-button,
 #touch-button {
-  animation: switchButton 500ms;
+  animation: switchButton 250ms;
   animation-direction: reverse;
 }
 
@@ -48,7 +48,7 @@
 #diamond-exit,
 #leaf-exit,
 #touch-exit {
-  animation: switchButton 500ms;
+  animation: switchButton 250ms;
   fill: white;
   animation-fill-mode: forwards;
 }
