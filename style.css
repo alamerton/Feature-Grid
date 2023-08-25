@@ -23,10 +23,14 @@
   margin-right: 1rem;
   /* display: none; */
 }
-#feature-description {
+.feature-description {
   margin: 1rem;
 }
 
 #exit-button {
+  /* display: none; */
+}
+
+#timer-reverse {
   display: none;
 }
