@@ -14,11 +14,17 @@
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  .feature-description {
+    font-size: 12px;
+  }
 }
 
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .feature-description {
+    font-size: 16px;
   }
 }
 
