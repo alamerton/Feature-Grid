@@ -12,7 +12,10 @@
 
 @media (min-width: 768px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    max-width: none;
+    margin: none;
+    gap: none;
   }
   .feature-description {
     font-size: 12px;
