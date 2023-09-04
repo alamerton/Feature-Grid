@@ -100,6 +100,7 @@
   }
   .grid-item {
     height: 25rem;
+    margin: 2rem;
   }
 }
 
