@@ -2,11 +2,9 @@
   box-sizing: border-box;
 }
 
-.container {
+.cards-container {
   background-color: #f2f4f3;
   padding: 4rem 0 4rem 0;
-  /* width: 1200px; */
-  text-align: center;
   overflow: hidden;
 }
 
