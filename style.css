@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.features-heading {
+  text-align: center;
+  line-height: 20px;
+}
+
 .cards {
   display: flex;
   overflow-x: auto;
