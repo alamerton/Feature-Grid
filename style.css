@@ -106,7 +106,7 @@ section[data-section-id="64edc7616cbc661db8619a98"] * {
   transition: unset !important;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .cards {
     max-width: 1200px;
     margin: 0 auto;
@@ -116,7 +116,6 @@ section[data-section-id="64edc7616cbc661db8619a98"] * {
   }
 
   .grid-item {
-    height: 25rem;
     margin: 2rem;
   }
 
@@ -126,7 +125,7 @@ section[data-section-id="64edc7616cbc661db8619a98"] * {
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
   }
