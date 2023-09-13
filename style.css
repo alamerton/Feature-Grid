@@ -112,7 +112,7 @@ section[data-section-id="64edc7616cbc661db8619a98"] * {
     margin: 0 auto;
     display: grid;
     gap: 1rem;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(~"2, 1fr");
   }
 
   .grid-item {
@@ -127,7 +127,7 @@ section[data-section-id="64edc7616cbc661db8619a98"] * {
 
 @media screen and (min-width: 1200px) {
   .cards {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(~"3, 1fr");
   }
 
   .feature-description {
